@@ -5,7 +5,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Login {
-	final String GET_ONE = "SELECT * FROM logins WHERE log_uname=? AND log_password=?";
+	final String GET_ONE = "SELECT * FROM logins WHERE username=? AND password=?";
 
 	private DBConnection connection = DBConnection.getInstance();
 
